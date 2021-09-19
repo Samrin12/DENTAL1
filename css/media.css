@@ -1,0 +1,230 @@
+@media (max-width:992px){
+    .section{
+        display: flex;
+        justify-content: left;
+    }
+    .header-1 .logo{
+    display:flex;
+    align-items: center;
+   
+    justify-content: center;
+    }
+    .header-1 img{
+    margin-top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        margin-top: 3%;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url(../images/navbar);
+    }
+    .sections .sec-1 .logo {
+        width: 15;
+        height: 15;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        justify-content: center;
+    }
+        .sections .sec-1 .logo i{
+            
+        font-size: 1opx;
+        }
+        .sections .sec-1 .content ul li h1{
+            font-size: 16px;
+        }
+
+.sections .sec-1 .content {
+    width: 88%;
+    text-align: left;
+    margin-top: 25px;
+}
+.sections .section .sec-1 .content ul{
+    margin-bottom: 0;
+}
+.banner1{
+    min-height: 80vh;
+}
+.banner1 .slide .slide-1 .image {
+    width: 49%;
+    margin: 60px 0 0 8px;
+}
+.banner1 .slide .slide-1 .content h2{
+    font-size: 29px;
+}.banner1 .slide .slide-1 .content h1{
+    font-size: 38px;
+}
+.welcome .contents .sections .section .content h1{
+    margin-bottom: 5px;
+}
+.sticker{
+    min-height: 78vh;
+}
+.sticker .logo-content{
+    margin-left: 50px !important;
+}
+}
+@media(max-width:767px){
+    .header-1 .logo{
+        margin: 10px 0;
+    }
+    .sections{
+        display: none;
+    }
+    .shape{
+        display: none;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 0;
+    }
+    .banner1 .slide .slide-1 .image{
+        display: none;
+    }
+    .banner1 .slide .slide-1 .content {
+        margin: 0;
+        text-align: left;
+        margin-top: 70px;
+        text-align: center;
+        
+    }
+    .banner1 .slide .slide-1 .content h2 {
+        font-size: 27px;
+       margin: auto;
+    }
+    .banner1 .slide .slide-1 .content h1 {
+        font-size: 36px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .owl-dots {
+        text-align: center;
+        margin-top: 6%;
+        margin-left: 4%;
+    }
+    .welcome_image .image {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .welcome .contents {
+        padding-top: 30px;
+        padding-left: 38px;
+        text-align: center;
+    }
+    .doctors .heading{
+        width: 100%;
+    }
+    .doctors .doctor-list .doctor{
+        margin-bottom: 10%;
+    }
+    .doctors .doctor-list .doctor span{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .doctors .doctor-list .doctor .image{
+        width: 80%;
+        margin: auto;
+    }
+    .service .heading{
+        width: 100%;
+    }
+    .service .service-table{
+        margin-bottom: 5%;
+    }
+    .price .heading{
+        width: 100%;
+    }
+    .price .price-table{
+        margin-bottom: 5%;
+    }
+    .sticker .heading{
+        width: 100%;
+    }
+    .sticker .logo-content {
+        padding-right: 15%;
+        margin-left: 0 !important;
+    }
+    .blog .logo-banner .image-logo {
+        width: 70%;
+    }
+    .blog .sec-1 .logo{
+        width: 7%;
+    }
+    .blog .newsletter .social-icon ul{
+        width: 40%;
+    }
+}
+@media(max-width:576px){
+    .service .service-table{
+        
+    }
+    .sticker .logo-content {
+        padding-left: 5%;
+    }
+}
+@media(max-width:425px){
+    .sticker{
+        min-height: 90vh;
+    }
+    .sticker .logo-content {
+        padding-right: 0;
+        padding-left: 20px;
+    }
+    .header-1 img{
+        width: 50%;
+    }
+    .banner1 .slide .slide-1 .content h2{
+        font-size: 20px;
+    }
+    .banner1 .slide .slide-1 .content h1{
+        font-size: 28px;
+    }
+    .blog .newsletter .social-icon ul{
+        width: 68%;
+    }
+    .doctors .heading{
+        width: 100%;
+    }
+}
+@media (max-width:320px){
+    .banner1 .slide .slide-1 .content h2{
+        font-size: 15px;
+    }
+    .banner1 .slide .slide-1 .content h1{
+        font-size:21px;
+    }
+    .banner1 .slide .slide-1 .content p{
+        font-size: 14px;
+    }
+    .banner1 .slide .slide-1 .content .button .learn{
+        font-size: 14px;
+    }
+    .banner1 .slide .slide-1 .content .button .book{
+        font-size: 14px;
+    }
+    .doctors .heading{
+        width: 100%;
+    }
+    .blog .blog-section h1{
+        font-size: 27px;
+        padding-bottom: 25px;
+    }
+    .blog .newsletter h1{
+        font-size: 27px;
+        padding-bottom: 25px;
+    }
+    .blog .newsletter .social-icon h2{
+        font-size: 20px;
+        
+    }
+    .blog .newsletter .social-icon ul li{
+
+    }
+    .blog .newsletter .social-icon ul{
+        width: 70%;
+    }
+}
